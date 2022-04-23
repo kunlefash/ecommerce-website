@@ -1,12 +1,11 @@
-
+import React from 'react'
+import "./header.css"
 function App() {
   return (
-    <div className="app">
-      <h1>
-        E-Commerce Website
-      </h1>
+    <div className='header'>
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
