@@ -41,5 +41,6 @@
     color: white;
 }
 .product__ratings{
+    display: flex;
     
 }
