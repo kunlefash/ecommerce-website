@@ -1,5 +1,7 @@
 import React from 'react'
 import "./product.css"
+import IMG from "../assets/herobg1.png"
+
 function Product() {
   return (
     <div className='product'>
@@ -13,7 +15,7 @@ function Product() {
           <p>*</p>
         </div>
       </div>
-      <img src="" alt="product" className='product__image' />
+      <img src= {IMG} alt="product" className='product__image' />
       <button className='product_button'>Add to Cart</button>
       </div>
   )
